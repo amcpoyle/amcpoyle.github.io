@@ -4,4 +4,7 @@ title:  "450 Supercross Rankings: Who is the Greatest SX Rider Ever?"
 date:   2023-10-10 20:51:17 -0400
 categories: supercross
 ---
-Introduction
+**Introduction**
+In 2006, the 450 class was introduced as the new premier class for AMA Supercross. One of the most common questions among all sports globally is, 
+“Who is the greatest ever?” Using a linear mixed-effects models (the statistical package “lme4” in R), 
+we can begin to see who emerges at the top of this debate.
