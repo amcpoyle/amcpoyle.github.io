@@ -20,6 +20,8 @@ To be fair, having race as a random effect is not ideal, I would much prefer to 
 every rider’s team from 2006-2023 is not readily available, so it will take some time to compile this information. An updated method will be written
 whenever this compilation is complete.
 
+One more thing to note is that the R2M (fraction of variance explained by fixed effects) is .625 for this model, and the R2C (fraction of variance explain by random effects is 0.631, so adding in race data does little to change a rider's points scored (i.e., what race they are at really shouldn't matter for how many points a rider will score).
+
 **Results**
 
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_1.png)
@@ -39,6 +41,29 @@ I think generally the rankings are pretty accurate to the commonly held beliefs 
 3. Musquin over Roczen.
 4. Seely over Barcia
 
-### James Stewart: The Greatest 450SX Racer?
+**James Stewart: The Greatest 450SX Racer?**
+The 3 best years for JS7 are 2007, 2008, 2009. He completed 35 races during this time, with a mean finish position of 2.029 (median 1), so this was a dominant interval of time for him. He won the title in 2007 and 2009, and was injured in 2008 when Chad Reed won. It’s impressive that his 3 best years include one that was almost entirely wiped out by injury (scoring only 47 points), however, Stewart was injured frequently during his career, and having 3 consecutive seasons without injury was unheard of for him.
 
+In 2007, he won 13/16 races.
 
+In 2008, he raced only 2 races, but placed 2nd and 1st respectively.
+
+In 2009, he won 11/17 races, with an outlier 19th in the first race of the season, one 7th, three 2nd places, and one 3rd in a closely contested championship with Chad Reed.
+
+Given his dominance in 2007 and 2009, and his dominance in 2008 until he got injured, JS7 as number one seems like a fair ranking. Most riders do not stay healthy for 3 consecutive supercross seasons, let alone 3 dominant consecutive seasons. Also, the point of the multilevel model is to try and improve on ranking by total points, and, in essence, try to measure a rider's "talent" level.
+
+**Battle of the Ryans: Dungey over Villopoto**
+It’s important to clarify that Ryan Dungey’s 3 best years were 2015, 2016, and 2017, just after Villopoto’s retirement and when Dungey first began working with Aldon Baker. On the contrary, Villopoto’s best years were 2012, 2013, and 2014. I think this is a good example of why a competition effect is required in any sort of ranking. For sure, Dungey was always the second best rider pre-2015, but after Villopoto left the class, it was evident how far ahead the two of them were to everyone else (on a consistent basis, at least).
+
+I was writing this section and realized a more in-depth analysis of the Ryans warrants another article, given that I think it is one of the most interesting rivalries in all of supercross/motocross.
+
+**Marvin Musquin vs Ken Roczen**
+Musquin’s best years are calculated as 2017, 2018, 2019. In 49 total races during these 3 years, Musquin won 8 races, podiumed 34 races (including wins), and was top 5 in 41 races (including wins and podiums). It’s generally forgotten how fast and consistent he was during this interval of time. He finished 3rd overall in the championship in 2017 behind Dungey and Tomac, and 2nd overall in 2018 behind Jason Anderson (arguably Musquin’s year to win the championship). In 2019, he was again 3rd overall, in a close battle with Webb and Tomac.
+
+On the contrary, Roczen’s supercross career has been plagued by injuries which creates an inconsistency for him. His best years are 2019, 2020, and 2021, just after his devastating arm injury in 2018 (and his other traumatic arm injury in 2017). He completed 51 races with 8 wins, 26 podiums, and 37 top 5s. Although their 3 year intervals are close statistically, Musquin was slightly more consistent with more podiums and more top 5s, although he may not be seen as the more “talented” rider, in general.
+
+**Things to Improve**
+No ranking model is perfect, and this one surely is nowhere near perfect. Here are a few things that came to mind while programming the model and looking at the results it produced:
+
+- A competition effect. Perhaps Dungey was better in the span of his 3 years than Villopoto, but if Villopoto’s competition was more difficult (i.e., he had Dungey to compete against), then how do we quantify that and factor it into our ranking? Multilevel modeling with a competition effect has been used to rank Formula One drivers, so perhaps something similar can be employed here.
+- Have the random effect be for teams, not races. It would be more interesting to see how teams effect the outcome of rider points scored, rather than how changing races effects it.
