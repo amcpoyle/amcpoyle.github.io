@@ -21,12 +21,24 @@ every rider’s team from 2006-2023 is not readily available, so it will take so
 whenever this compilation is complete.
 
 **Results**
+
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_1.png)
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_2.png)
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_3.png)
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_4.png)
+
 And there is more, but here are the riders at the bottom of the rankings:
+
 ![ranking best](/images/450sx_ranking_ver0/450sx_ver0_rank_worst.png)
 
+**Comments About the Rankings**
+I think generally the rankings are pretty accurate to the commonly held beliefs of supercross fans, but there are always some generated rankings that are debateable. From the top 25, some potentially debateable rankings are the following:
+
+1. James Stewart ranked as the greatest 450SX rider ever.
+2. Dungey over Villopoto.
+3. Musquin over Roczen.
+4. Seely over Barcia
+
+### James Stewart: The Greatest 450SX Racer?
 
 
