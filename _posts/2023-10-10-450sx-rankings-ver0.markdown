@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "450 Supercross Rankings: Who is the Greatest SX Rider Ever? Version 0."
+title:  "450 Supercross Rankings: Who is the Greatest 450SX Rider Ever? Version 0."
 date:   2023-10-10 20:51:17 -0400
 categories: supercross
 ---
