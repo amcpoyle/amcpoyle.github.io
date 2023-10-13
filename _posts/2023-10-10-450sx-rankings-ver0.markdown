@@ -39,7 +39,6 @@ I think generally the rankings are pretty accurate to the commonly held beliefs 
 1. James Stewart ranked as the greatest 450SX rider ever.
 2. Dungey over Villopoto.
 3. Musquin over Roczen.
-4. Seely over Barcia
 
 **James Stewart: The Greatest 450SX Racer?**
 The 3 best years for JS7 are 2007, 2008, 2009. He completed 35 races during this time, with a mean finish position of 2.029 (median 1), so this was a dominant interval of time for him. He won the title in 2007 and 2009, and was injured in 2008 when Chad Reed won. It’s impressive that his 3 best years include one that was almost entirely wiped out by injury (scoring only 47 points), however, Stewart was injured frequently during his career, and having 3 consecutive seasons without injury was unheard of for him.
