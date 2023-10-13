@@ -17,12 +17,10 @@ I scraped the names of all riders with professional race entries from RacerX. I 
 I then compiled all riders who have a 450 MX or SX overall victory in their career, and then used their Loretta Lynn’s results to create a correlation matrix that correlates pro wins against the LL class. I realized that classes at Loretta’s change over time, and that some classes have been gone for years. I created an “edited classes correlation” where I only include classes that have been raced by professional racers (examples that were eliminated: all senior classes, WMX, 250 All-Star A/B 14+ (not raced anymore)) (new_ll_corr)lation matrix only using data for riders that are currently racing so that there were less historical outliers (e.g. Ricky Carmichael, the greatest rider of all time, raced LL in the 1990s and raced some classes that are no longer around, but these classes have high position correlation because Carmichael has so many wins) (current_riders_correlation).
 
 **Results**
+
 ![correlation best](/images/ll_prowins_corr/ll_correlation_top25.png)
-
 ![correlation worst](/images/450sx_ranking_ver0/ll_correlation_bottom25.png)
-
 ![current correlation best](/images/450sx_ranking_ver0/current_ll_top25.png)
-
 ![current_correlation_worst](/images/450sx_ranking_ver0/current_ll_bottom25.png)
 
 **Comments**
