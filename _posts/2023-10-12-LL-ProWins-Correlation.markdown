@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Correlation Between Pro Supercross/Motocross Wins and Loretta Lynn's Titles"
-date:   2023-10-10 20:51:17 -0400
+date:   2023-10-12
 categories: supercross
 ---
 
@@ -18,8 +18,11 @@ I then compiled all riders who have a 450 MX or SX overall victory in their care
 
 **Results**
 ![correlation best](/images/ll_prowins_corr/ll_correlation_top25.png)
+
 ![correlation worst](/images/450sx_ranking_ver0/ll_correlation_bottom25.png)
+
 ![current correlation best](/images/450sx_ranking_ver0/current_ll_top25.png)
+
 ![current_correlation_worst](/images/450sx_ranking_ver0/current_ll_bottom25.png)
 
 **Comments**
