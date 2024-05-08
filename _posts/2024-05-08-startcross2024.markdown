@@ -1,1 +1,9 @@
-startcross
+---
+layout: post
+title:  "Startcross: A Look at the Correlation Between Finish Position and Start Position in Supercross"
+date:   2024-05-08 16:42:00 -0400
+categories: supercross
+---
+
+# Background
+Throughout the 2024 Supercross season, there has been a concern from certain members of the media that Supercross is turning more into "Startcross"--i.e., a race in which your finish position relies largely on your start position--with the introduction of new rules and a perceived deeper field of racers. Thinking about this question, it should be fairly simply to address by using correlation metrics. Correlation measures the strength and direction (positive or negative) of the relationship between two variables. In this case, the two variables are finish position (response variable) and start position. Using a Pearson correlation coefficient, if we see a correlation of 1 between these variables, it means that finish position is entirely determined by start position, so if a racer starts 1st, the racer will finish 1st. A correlation of -1 means that if the racer started 22nd, the racer will definitely get first.
