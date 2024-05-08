@@ -10,13 +10,13 @@ Throughout the 2024 Supercross season, there has been a concern from certain mem
 # Basic Evaluation
 We should probably start simple. We will plot the correlation between finish position and start position for ALL positions between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer.
 
-[![Correlation between finish position and start position over all years](../images/startcross/startpos_corr_allyears_allpos.png)]
+[(../images/startcross/corr_allyears.png)]
 
 This graph tells us that the correlation has actually dropped significantly for this year, which may seem counter-intuitive to what we see on the weekends. Note that the scale of the y-axis ranges from a little under 0.69 to almost 0.75, which is quite small. But still, it is a drop off. This could be because we are taking into account every single position you could finish in--from 1st to 22nd. When "Startcross" is referred to, it is usually in the context of the winner or at least top 5. 
 
-[![Average start position graph](../images/startcross/avg_start_winner_podium_chart.png)]
+[(../images/startcross/avg_start_chart.png)]
 
-[![Average start position of winners](../images/startcross/avg_start_pos_winner_heatmap.png)]
+[(../images/startcross/winner_start_heatmap.png)]
 
 As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
 
