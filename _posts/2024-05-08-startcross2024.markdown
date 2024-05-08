@@ -28,7 +28,7 @@ We only see the correlation increasing in terms of the podium finishers. If we g
 
 [![](../images/startcross/top10_corr.png)]
 
-And for completion: 
+Several extra graphs are included after the summary for additional reference.
 
 # Summary
 The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is largely the context it is referred to in) and to be fair, the correlation jump isn't huge. For the rest of the field, starts are just as important as they have always been.
