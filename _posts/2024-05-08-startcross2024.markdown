@@ -8,10 +8,9 @@ categories: supercross
 Throughout the 2024 Supercross season, there has been a concern from certain members of the media that Supercross is turning more into "Startcross"--i.e., a race in which your finish position relies largely on your start position--with the introduction of new rules and a perceived deeper field of racers. Thinking about this question, it should be fairly simply to address by using correlation metrics. Correlation measures the strength and direction (positive or negative) of the relationship between two variables. In this case, the two variables are finish position (response variable) and start position. Using a Pearson correlation coefficient, if we see a correlation of 1 between these variables, it means that finish position is entirely determined by start position, so if a racer starts 1st, the racer will finish 1st. A correlation of -1 means that if the racer started 22nd, the racer will definitely get first.
 
 # Basic Evaluation
-It's good to get an idea of where the sport currently is and where it was in the past. Using 450 class finish data from 2018-2024 (7 years worth of data), we can plot the relationship between average start position and corresponding average finish position.
+We should probably start simple. We will plot the correlation between finish position and start position for ALL positions between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer.
 
-
-Let's start simple. We will plot the correlation between finish position and start position for ALL positions between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer.
+[![Correlation between finish position and start position over all years](/startpos_corr_allyears_allpos.png)]
 
 This graph tells us that the correlation has actually dropped significantly for this year, which may seem counter-intuitive to what we see on the weekends. Note that the scale of the y-axis ranges from a little under 0.69 to almost 0.75, which is quite small. But still, it is a drop off. This could be because we are taking into account every single position you could finish in--from 1st to 22nd. When "Startcross" is referred to, it is usually in the context of the winner or at least top 5. As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
 
