@@ -22,7 +22,7 @@ As we can see, the average start position for the winner has dropped in 2024 com
 
 We only see the correlation increasing in terms of the podium finishers. If we go to positions 4-10, we do not see this trend.
 
-[![](../images/startcross/
+[![](../images/startcross/top10_corr.png)]
 
 # Summary
 The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is largely the context it is referred to in) and to be fair, the correlation jump isn't huge. For the rest of the field, starts are just as important as they have always been.
