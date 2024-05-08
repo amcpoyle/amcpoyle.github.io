@@ -32,3 +32,8 @@ Several extra graphs are included after the summary for additional reference.
 
 # Summary
 The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is pretty much the context it is referred to in) and to be fair, the correlation jump isn't huge, but it is something. For the rest of the field, starts are just as important as they have always been.
+
+# Additional Graphs
+[![](../images/startcross/podium_start_hetamap.png)]
+
+[![](../images/
