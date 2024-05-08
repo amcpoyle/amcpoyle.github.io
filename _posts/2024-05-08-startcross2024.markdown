@@ -16,6 +16,10 @@ This graph tells us that the correlation has actually dropped significantly for 
 
 [![](../images/startcross/avg_start_chart.png)]
 
+So we will first look at the average start position for winners and the correlations for podium finishes only.
+
+[![](../images/startcross/winner_start_heatmap.png)]
+
 [![](../images/startcross/podium_corr.png)]
 
 As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
