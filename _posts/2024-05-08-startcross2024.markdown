@@ -9,7 +9,7 @@ Throughout the 2024 Supercross season, there has been a concern from certain mem
 
 Also an interesting note/disclaimer: riders like Mike Alessi or Vince Friese, who are consistently good starters but who usually get shuffled back down the order a little, will have a tendency to potentially throw off correlations a little. This will not be present (most of the time) when you restrict the dataset to only the podium finishing positions of the 450 class. Perhaps we can call this the "Mike Alessi Effect." It's not really an issue with this dataset from the years 2018-2024, but something conceptual to think about. There are always riders who are better starters, and this should even out throughout the season with riders of the opposite tendency, but the effect is omnipresent and incorporated into the statistic.
 
-# Basic Evaluation
+# Evaluation
 We will start simple by plotting the correlation between finish position and start position for all positions (1-22) between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer to see a trend.
 
 <img src="/images/startcross/corr_allyears.png">
