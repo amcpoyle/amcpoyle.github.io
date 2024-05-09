@@ -34,6 +34,17 @@ Several extra graphs are included after the summary for additional reference.
 The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is pretty much the context it is referred to in) and to be fair, the correlation jump isn't huge, but it is something. For the rest of the field, starts are just as important as they have always been.
 
 # Additional Graphs
+
+This is a neat graph that shows for 2024 each finish position and the corresponding average start position that resulted in that finish position. I threw a basic linear model regression line to show what a linear model would predict was a start position given a finish position as input. Perhaps I should flip it next time so that we give it start position and it predicts finish_position. Either way, the point is articulated.
+
+[![](../images/startcross/avg_2024_lm.png)]
+
 [![](../images/startcross/podium_start_hetamap.png)]
 
-[![](../images/
+[![](../images/startcross/top10_start.png)]
+
+[![](../images/startcross/top20_start.png)]
+
+[![](../images/startcross/cor_top20.png)]
+
+
