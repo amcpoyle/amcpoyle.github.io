@@ -43,8 +43,8 @@ This is a neat graph that shows for 2024 each finish position and the correspond
 
 ![](/assets/top10_start.png)
 
-![](../images/startcross/top20_start.png)
+![](/assets/top20_start.png)
 
-![](../images/startcross/cor_top20.png)
+![](/assets/cor_top20.png)
 
 
