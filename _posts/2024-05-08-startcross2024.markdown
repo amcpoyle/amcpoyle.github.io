@@ -10,23 +10,23 @@ Throughout the 2024 Supercross season, there has been a concern from certain mem
 # Basic Evaluation
 We should probably start simple. We will plot the correlation between finish position and start position for ALL positions between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer.
 
-![](../images/startcross/corr_allyears.png)
+![](/assets/corr_allyears.png)
 
 This graph tells us that the correlation has actually dropped significantly for this year, which may seem counter-intuitive to what we see on the weekends. Note that the scale of the y-axis ranges from a little under 0.69 to almost 0.75, which is quite small. But still, it is a drop off. This could be because we are taking into account every single position you could finish in--from 1st to 22nd. When "Startcross" is referred to, it is usually in the context of the winner or at least top 5. 
 
-![](../images/startcross/avg_start_chart.png)
+![](/assets/avg_start_chart.png)
 
 This graph says that in 2024, both for the podium and the winner, their average start position is lower on average than in previous years. So we will first look at the average start position for winners and the correlations for podium finishes only.
 
-![](../images/startcross/winner_start_heatmap.png)
+![](/assets/winner_start_heatmap.png)
 
-![](../images/startcross/podium_corr.png)
+![](/assets/podium_corr.png)
 
 As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
 
 We only see the correlation increasing in terms of the podium finishers. If we go to positions 4-10, we do not see this trend.
 
-![](../images/startcross/top10_corr.png)
+![](/assets/top10_corr.png)
 
 Several extra graphs are included after the summary for additional reference.
 
@@ -37,11 +37,11 @@ The term "Startcross" has its merits, but only in the context of the top 3 finis
 
 This is a neat graph that shows for 2024 each finish position and the corresponding average start position that resulted in that finish position. I threw a basic linear model regression line to show what a linear model would predict was a start position given a finish position as input. Perhaps I should flip it next time so that we give it start position and it predicts finish_position. Either way, the point is articulated.
 
-![](../images/startcross/avg_2024_lm.png)
+![](/assets/avg_2024_lm.png)
 
-![](../images/startcross/podium_start_hetamap.png)
+![](/assets/podium_start_hetamap.png)
 
-![](../images/startcross/top10_start.png)
+![](/assets/top10_start.png)
 
 ![](../images/startcross/top20_start.png)
 
