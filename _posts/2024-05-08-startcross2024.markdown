@@ -20,13 +20,13 @@ This graph says that in 2024, both for the podium and the winner, their average 
 
 ![](/_posts/assets/winner_start_heatmap.png)
 
-![](/assets/podium_corr.png)
+![](/_posts/assets/podium_corr.png)
 
 As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
 
 We only see the correlation increasing in terms of the podium finishers. If we go to positions 4-10, we do not see this trend.
 
-![](/assets/top10_corr.png)
+![](/_posts/assets/top10_corr.png)
 
 Several extra graphs are included after the summary for additional reference.
 
@@ -37,14 +37,14 @@ The term "Startcross" has its merits, but only in the context of the top 3 finis
 
 This is a neat graph that shows for 2024 each finish position and the corresponding average start position that resulted in that finish position. I threw a basic linear model regression line to show what a linear model would predict was a start position given a finish position as input. Perhaps I should flip it next time so that we give it start position and it predicts finish_position. Either way, the point is articulated.
 
-![](/assets/avg_2024_lm.png)
+![](/_posts/assets/avg_2024_lm.png)
 
-![](/assets/podium_start_hetamap.png)
+![](/_posts/assets/podium_start_hetamap.png)
 
-![](/assets/top10_start.png)
+![](/_posts/assets/top10_start.png)
 
-![](/assets/top20_start.png)
+![](/_posts/assets/top20_start.png)
 
-![](/assets/cor_top20.png)
+![](/_posts/assets/cor_top20.png)
 
 
