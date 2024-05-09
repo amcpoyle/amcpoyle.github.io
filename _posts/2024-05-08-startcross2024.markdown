@@ -5,10 +5,10 @@ date:   2024-05-08 16:42:00 -0400
 categories: supercross
 ---
 # Background
-Throughout the 2024 Supercross season, there has been a concern from certain members of the media that Supercross is turning more into "Startcross"--i.e., a race in which your finish position relies largely on your start position--with the introduction of new rules and a perceived deeper field of racers. Thinking about this question, it should be fairly simply to address by using correlation metrics. Correlation (Pearson Correlation) measures the strength and direction (positive or negative) of the relationship between two variables. In this case, the two variables are finish position (response variable) and start position. Using a Pearson correlation coefficient, if we see a correlation of 1 between these variables, it means that finish position is entirely determined by start position, so if a racer starts 1st, the racer will finish 1st. A correlation of -1 means that if the racer started 22nd, the racer will definitely get first.
+Throughout the 2024 Supercross season, there has been a concern from certain members of the media that Supercross is turning more into "Startcross" (a race in which your finish position relies largely on your start position) with the introduction of new rules and a perceived deeper field of racers. Thinking about this question, it should be fairly simple to look at the validity of this statement using correlation metrics. Correlation measures the strength and direction (positive or negative) of the relationship between two variables. In this case, the two variables are finish position (response variable) and start position. Using a Pearson correlation coefficient, if we see a correlation of 1 between these variables, it means that finish position is entirely determined by start position, so if a racer starts 1st, the racer will finish 1st. A correlation of -1 means that if the racer started 22nd, the racer will definitely get 1st (a negative relationship between the two).
 
 # Basic Evaluation
-We should probably start simple. We will plot the correlation between finish position and start position for ALL positions between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer.
+We will start simple by plotting the correlation between finish position and start position for all positions (1-22) between the years 2018-2024. This is discrete data but a line is added for the convenience of the viewer to see a trend.
 
 ![](/_posts/assets/startcross/corr_allyears.png)
 
@@ -22,16 +22,16 @@ This graph says that in 2024, both for the podium and the winner, their average 
 
 ![](/_posts/assets/startcross/podium_corr.png)
 
-As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important).
+As we can see, the average start position for the winner has dropped in 2024 compared to previous years, and the correlation between start position and finish position for podium finishes has increased (i.e., a start has become more important). This increase in correlation backs up a lot of what we see on the weekends: for the top positions in the 450 class, the start is relatively more important this year.
 
 We only see the correlation increasing in terms of the podium finishers. If we go to positions 4-10, we do not see this trend.
 
 ![](/_posts/assets/startcross/top10_corr.png)
 
-Several extra graphs are included after the summary for additional reference.
+Several extra graphs are included after the summary for additional reference and completion.
 
 # Summary
-The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is pretty much the context it is referred to in) and to be fair, the correlation jump isn't huge, but it is something. For the rest of the field, starts are just as important as they have always been.
+The term "Startcross" has its merits, but only in the context of the top 3 finishers (which is pretty much the only context it is referred to in). To be fair, the correlation jump isn't huge, but it is something. For the rest of the field, starts are just as important as they have always been.
 
 # Additional Graphs
 
